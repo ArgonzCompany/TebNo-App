@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>patientInfo</class>
+ <widget class="QWidget" name="patientInfo">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>600</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>600</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTabWidget" name="patientTab">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>0</y>
+     <width>461</width>
+     <height>591</height>
+    </rect>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::RightToLeft</enum>
+   </property>
+   <property name="currentIndex">
+    <number>1</number>
+   </property>
+   <widget class="QWidget" name="patientInformation">
+    <attribute name="icon">
+     <iconset resource="resources/resources.qrc">
+      <normaloff>:/images/person.png</normaloff>:/images/person.png</iconset>
+    </attribute>
+    <attribute name="title">
+     <string>اطلاعات پایه</string>
+    </attribute>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="name_lbl">
+       <property name="text">
+        <string>نام:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="name">
+       <property name="maxLength">
+        <number>30</number>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="fname_lbl">
+       <property name="text">
+        <string>نام خانوادگی:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="fname">
+       <property name="maxLength">
+        <number>35</number>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="phone_lbl">
+       <property name="text">
+        <string>شماره همراه:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="phoneNumber">
+       <property name="inputMask">
+        <string>99999999999</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="ncode_lbl">
+       <property name="text">
+        <string>کد ملی:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="nationalCode">
+       <property name="inputMask">
+        <string>9999999999</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="date_lbl">
+       <property name="text">
+        <string>تاریخ تولد:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="birth">
+       <property name="inputMask">
+        <string>1999/99/99</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QPushButton" name="editPatient">
+         <property name="text">
+          <string>ویرایش</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="deletePatient">
+         <property name="text">
+          <string>حذف</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="visitsTab">
+    <attribute name="icon">
+     <iconset>
+      <normaloff>resources/visits.png</normaloff>resources/visits.png</iconset>
+    </attribute>
+    <attribute name="title">
+     <string>نوبت‌ها</string>
+    </attribute>
+    <widget class="QLabel" name="visit_lbl">
+     <property name="geometry">
+      <rect>
+       <x>336</x>
+       <y>30</y>
+       <width>101</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>نوبت‌ها:</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="verticalLayoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>19</x>
+       <y>80</y>
+       <width>411</width>
+       <height>451</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="visitScreen"/>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resources/resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

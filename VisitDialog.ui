@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>visitDialog</class>
+ <widget class="QDialog" name="visitDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>300</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="visitStatusLbl">
+     <property name="text">
+      <string>وضعیت نوبت:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="visitStatus"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="visitHourLbl">
+     <property name="text">
+      <string>ساعت نوبت:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="visitHour">
+     <property name="inputMask">
+      <string>99:99</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="visitDateLbl">
+     <property name="text">
+      <string>تاریخ نوبت:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="visitDate">
+     <property name="inputMask">
+      <string>1999/99/99</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="visitDescriptionLbl">
+     <property name="text">
+      <string>توضیحات:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QTextEdit" name="visitDescription">
+     <property name="layoutDirection">
+      <enum>Qt::RightToLeft</enum>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="visitEditBtn">
+     <property name="text">
+      <string>ویرایش نوبت</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

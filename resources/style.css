@@ -1,0 +1,212 @@
+
+#TebNoContainer{
+  background: #0E9FF1;
+}
+
+QTabWidget::pane {
+  border-radius: 8%; 
+  background:#F9B006; 
+  margin: 2% 2%;
+} 
+
+QTabBar::tab {
+  background: #F9B006; 
+  border-radius: 8%; 
+  padding: 20px;
+  margin: 2.5% 2%;
+  font-family: 'Vazirmatn', sans-serif;
+  font-size: 12px;
+} 
+
+QTabBar::tab:selected { 
+  background: #F9B006; 
+  margin-bottom: -1px; 
+}
+
+QLabel{
+   font-family: 'Vazirmatn', sans-serif;
+   color: #645531;
+   font-size: 14px;
+}
+
+#submitBtn{
+  margin-top: 1%;
+  background: #916704;
+  color: white;
+  font-family: 'Vazirmatn', sans-serif;
+  font-size: 14px;
+  border-radius:8%;
+  padding: 4px;
+}
+
+#submitBtn:hover{
+  background: #645531;
+}
+
+#visitBtn{
+  margin-top: 1%;
+  background: #916704;
+  color: white;
+  font-family: 'Vazirmatn', sans-serif;
+  font-size: 14px;
+  border-radius:8%;
+  padding: 4px;
+}
+
+#visitBtn:hover{
+  background: #645531;
+}
+
+QLineEdit{
+    border: 2px dashed #0E9FF1;
+    padding: 6px;
+}
+
+#location{
+  border: 2px dashed #0E9FF1;
+}
+
+#patientInfo{
+  background: #0E9FF1;
+}
+
+#editPatient{
+  margin-top: 1%;
+  background: #916704;
+  color: white;
+  font-family: 'Vazirmatn', sans-serif;
+  font-size: 14px;
+  border-radius:8%;
+  padding: 4px;
+}
+
+#editPatient:hover{
+  background: #645531;
+}
+
+#deletePatient{
+  margin-top: 1%;
+  background: #916704;
+  color: white;
+  font-family: 'Vazirmatn', sans-serif;
+  font-size: 14px;
+  border-radius:8%;
+  padding: 4px;
+}
+
+#deletePatient:hover{
+  background: #645531;
+}
+
+QHeaderView{
+  font-family: 'Vazirmatn', sans-serif;
+  font-size: 14px;
+}
+
+#visitDialog{
+  background: #F9B006;
+}
+
+#visitEditBtn{
+  margin-top: 1%;
+  background: #916704;
+  color: white;
+  font-family: 'Vazirmatn', sans-serif;
+  font-size: 14px;
+  border-radius:8%;
+  padding: 4px;
+}
+
+#visitEditBtn:hover{
+  background: #645531;
+}
+
+#visitDescription{
+    border: 2px dashed #0E9FF1;
+}
+
+#visitPlot{
+  margin-top: 1%;
+  background: #916704;
+  color: white;
+  font-family: 'Vazirmatn', sans-serif;
+  font-size: 14px;
+  border-radius:8%;
+  padding: 4px;
+}
+
+#visitPlot:hover{
+  background: #645531;
+}
+
+
+#patientPlot{
+  margin-top: 1%;
+  background: #916704;
+  color: white;
+  font-family: 'Vazirmatn', sans-serif;
+  font-size: 14px;
+  border-radius:8%;
+  padding: 4px;
+}
+
+#patientPlot:hover{
+  background: #645531;
+}
+
+
+#visitChartPlot{
+  margin-top: 1%;
+  background: #916704;
+  color: white;
+  font-family: 'Vazirmatn', sans-serif;
+  font-size: 14px;
+  border-radius:8%;
+  padding: 4px;
+}
+
+#visitChartPlot:hover{
+  background: #645531;
+}
+
+#patientInfoBtn{
+  margin-top: 1%;
+  background: #916704;
+  color: white;
+  font-family: 'Vazirmatn', sans-serif;
+  font-size: 14px;
+  border-radius:8%;
+  padding: 4px;
+}
+
+#patientInfoBtn:hover{
+  background: #645531;
+}
+
+
+#TebnoConfirmation{
+  background:#F9B006; 
+}
+
+#submitBtnConfirm{
+  margin-top: 1%;
+  background: #916704;
+  color: white;
+  font-family: 'Vazirmatn', sans-serif;
+  font-size: 14px;
+  border-radius:8%;
+  padding: 4px;
+}
+
+#submitBtnConfirm:hover{
+  background: #645531;
+}
+
+#TebNoProduct{
+  background: #040e36;
+}
+
+#TebnoWarning{
+  border: 2px dashed #F9B006;
+}
+

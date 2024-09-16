@@ -1,0 +1,21 @@
+<RCC>
+  <qresource prefix="fonts">
+    <file>Vazirmatn-Bold.ttf</file>
+  </qresource>
+  <qresource prefix="template">
+    <file>report.html</file>
+  </qresource>
+  <qresource prefix="styles">
+    <file>messagebox.css</file>
+    <file>style.css</file>
+  </qresource>
+  <qresource prefix="images">
+    <file>print.png</file>
+    <file>TebNoLogo.png</file>
+    <file>statistics.png</file>
+    <file>createVisit.png</file>
+    <file>patients.png</file>
+    <file>person.png</file>
+    <file>visits.png</file>
+  </qresource>
+</RCC>
