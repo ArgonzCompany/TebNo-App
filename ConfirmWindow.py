@@ -24,7 +24,7 @@ class ConfirmWindow(QWidget, Ui_TebnoConfirmation):
         self.setupUi(self)
         self.setWindowTitle("طبنو")
         self.setWindowIcon(QtGui.QIcon(':/images/TebNoLogo.png'))
-        self.url = "https://argonz.ir/wp-json/tebno/v2/user"
+        self.url = "Your url for rest api application authentication"
         self.submitBtnConfirm.clicked.connect(self.doAuthentication)
         self.show()
     
